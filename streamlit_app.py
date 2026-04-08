@@ -4,8 +4,8 @@ import xmlschema
 
 # Preload schemas (adjust paths to where your XSDs are stored)
 SCHEMAS = {
-    "pacs.008": xmlschema.XMLSchema("C:/Users/prabh/Downloads/archive_business_area_payments_clearing_and_settlement_80b9af4a4c/pacs.008.001.13.xsd"),
-    "pacs.009": xmlschema.XMLSchema("C:/Users/prabh/Downloads/archive_business_area_payments_clearing_and_settlement_80b9af4a4c/pacs.008.001.13.xsd")
+    "pacs.008": xmlschema.XMLSchema("schemas/pacs.008.001.13.xsd"),
+    "pacs.009": xmlschema.XMLSchema("schemas/pacs.008.001.13.xsd")
 }
 
 
